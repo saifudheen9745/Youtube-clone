@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 58px;
+  width: 100%;
+  top: 0;
+  
+  background-color: white;
+}
+
+.menuIcon {
+  width: 23px;
+  height: 23px;
+  margin-left: 22px;
+}
+
+.ytIcon {
+  width: 90px;
+  height: 20px;
+  margin-left: 28px;
+}
+
+.inp {
+  width: 540px;
+  height: 35px;
+  margin-left: 470px;
+  border: solid;
+  border-color: rgb(227, 226, 226);
+  border-width: 2px;
+  padding-left: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchButton {
+  width: 60px;
+  height: 39px;
+  border: solid rgb(227, 226, 226);
+  border-width: 1px;
+}
+
+.mgLense {
+  width: 25px;
+}
+
+.micIcon {
+  width: 50px;
+  height: 25px;
+}
+
+.videoCam {
+  width: 22px;
+  margin-left: 450px;
+}
+
+.notification {
+  width: 25px;
+  margin-left: 30px;
+}
+
+.userAccount {
+  width: 25px;
+  margin-left: 25px;
+}
+
+.headhov:hover{
+  cursor: pointer;
+}
+
+.sideNav {
+  height: 950px;
+  width: 230px;
+  overflow-y: scroll;
+  float: left;
+  
+}
+
+.sideNav::-webkit-scrollbar {
+  display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.home:hover{
+  background-color: rgb(227, 226, 226);
+  cursor: pointer;
+}
+
+.sideNavIcon {
+  width: 28px;
+  margin-left: 22px;
+  outline: none;
+}
+
+.sideNavIcon:hover{
+  cursor: pointer;
+}
+
+.sideNavText {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+.sideNavText:hover{
+  cursor: pointer;
+  
+}
+
+.line {
+  margin-top: 20px;
+  padding-bottom: 0px;
+  color: rgba(0, 0, 0, 0.22);
+}
+
+.heading {
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.endthings {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subtexts {
+  color: rgb(32, 32, 59);
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.down {
+  margin-top: 10px;
+}
+
+.end {
+  margin-top: 30px;
+}
+
+.submenu {
+  display: flex;
+  align-items: center;
+  width: 1675px;
+  height: 55px;
+
+}
+
+.subbuttons {
+  height: 36px;
+  border-radius: 19px;
+  margin-left: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.subbuttons:hover{
+  cursor: pointer;
+}
+
+.all {
+  width: 50px;
+}
+
+.music,
+.live,
+.mixes {
+  width: 60px;
+}
+
+.comedy,
+.frying,
+.gaming,
+.films {
+  width: 70px;
+}
+
+.mountbike,
+.superheroes,
+.smartphones {
+  width: 150px;
+}
+
+.trailers,
+.mantras,
+.cricket,
+.lessons {
+  width: 80px;
+}
+
+.thrillers,
+.tseries {
+  width: 100px;
+}
+
+.sideangle {
+  width: 30px;
+  margin-left: 25px;
+}
+
+.rightportion {
+  background-color: #f9f9f9;
+  height: 894px;
+  width: 1675px;
+  float: left;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.video:hover{
+  cursor: pointer;
+}
+
+.subs{
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.usrimg{
+  padding-right: 10px;
+  margin-left: 50px;
+  width: 30px;
+  float: left;
+}
+
+.name{
+  margin-top: 8px;
+}
+
+.views{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.lightline{
+  color: aqua;
+}
